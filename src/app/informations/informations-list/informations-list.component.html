@@ -1,0 +1,16 @@
+<h4>Informations</h4>  
+<table class="table table-striped">  
+  <tr>  
+    <td>Id</td>    
+    <th>Title</th>  
+    <th>Contents</th>
+    <th>&nbsp;</th>
+  </tr>  
+  <tr *ngFor="let inf of informations" >
+    <td>{{ inf.id }}</td>  
+    <td>{{ inf.Title }}</td>  
+    <td>{{ inf.Contents }}</td>  
+    <td><a [routerLink]="['/informations', inf.id]">Edit</a></td>
+  </tr>  
+</table>  
+<br /> 
