@@ -1,4 +1,4 @@
-
+<h4 [attr.data-test]="'informations-title'">Informations</h4>
 <div *ngIf="informations$ | async as informations">
   <app-informations-list [informations]="informations"></app-informations-list>
 </div>

@@ -1,16 +1,16 @@
-import { AppPage } from './app.po';
+import { InformationsPage } from './informations.po';
 import { browser, logging } from 'protractor';
 
 describe('workspace-project App', () => {
-  let page: AppPage;
+  let pageInformations: InformationsPage;
 
   beforeEach(() => {
-    page = new AppPage();
+    pageInformations = new InformationsPage();
   });
 
-  it('should display welcome message', () => {
-    page.navigateTo();
-    expect(page.getTitleText()).toEqual('angular9-ngrx-example app is running!');
+  it('informations show', () => {
+    pageInformations.navigateTo();
+    expect(pageInformations.getTitleText()).toEqual('Informations');
   });
 
   afterEach(async () => {

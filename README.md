@@ -65,8 +65,52 @@ rxjs                         6.5.4
 
 ```
 > git clone https://github.com/hosomi/angular9-ngrx-example.git
+> cd angular9-ngrx-example
 > npm i
 > ng serve
 ```
+browser:  
+``http://localhost:4200``
 
-http://localhost:4200
+
+## env
+
+```
+angular9-ngrx-example> ng --version
+
+     _                      _                 ____ _     ___
+    / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
+   / △ \ | '_ \ / _` | | | | |/ _` | '__|   | |   | |    | |
+  / ___ \| | | | (_| | |_| | | (_| | |      | |___| |___ | |
+ /_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
+                |___/
+    
+
+Angular CLI: 9.1.9
+Node: 12.18.1
+OS: win32 x64
+
+Angular: 9.1.11
+... animations, common, compiler, compiler-cli, core, forms
+... language-service, platform-browser, platform-browser-dynamic
+... router
+Ivy Workspace: Yes
+
+Package                           Version
+-----------------------------------------------------------
+@angular-devkit/architect         0.901.9
+@angular-devkit/build-angular     0.901.9
+@angular-devkit/build-optimizer   0.901.9
+@angular-devkit/build-webpack     0.901.9
+@angular-devkit/core              9.1.9
+@angular-devkit/schematics        9.1.9
+@angular/cli                      9.1.9
+@ngtools/webpack                  9.1.9
+@schematics/angular               9.1.9
+@schematics/update                0.901.9
+rxjs                              6.5.5
+typescript                        3.8.3
+webpack                           4.42.0
+```
+
+> [package.json](package.json)
