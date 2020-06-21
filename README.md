@@ -1,5 +1,7 @@
 # angular9-ngrx-example
 
+[![Build Status](https://kiyotakehosomi.visualstudio.com/angular9-ngrx-example/_apis/build/status/hosomi.angular9-ngrx-example?branchName=master)](https://kiyotakehosomi.visualstudio.com/angular9-ngrx-example/_build/latest?definitionId=8&branchName=master)  
+
 * [Angular](https://angular.io/)
 * [NgRx](https://ngrx.io/)
 
@@ -59,6 +61,10 @@ rxjs                         6.5.4
 
 ### 3. git インストール （省略）
 
+### 4. エディター（好きなものを）
+
+:link: [Visual Studio Code – コード エディター | Microsoft Azure](https://azure.microsoft.com/ja-jp/products/visual-studio-code/)  
+
 
 ## run
 
@@ -71,6 +77,24 @@ rxjs                         6.5.4
 ```
 browser:  
 ``http://localhost:4200``
+
+## tests
+
+``ng e2e``
+
+```
+PS angular9-ngrx-example> ng e2e
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+: Compiled successfully.
+
+DevTools listening on ws://127.0.0.1:57209/devtools/browser/1d65500c-e286-4d2d-af4e-99e6ae17c3a9
+Jasmine started
+
+  workspace-project App
+    √ informations show
+
+Executed 1 of 1 spec SUCCESS in 1 sec.
+```
 
 
 ## env
@@ -114,3 +138,13 @@ webpack                           4.42.0
 ```
 
 > [package.json](package.json)
+
+
+---
+
+## :books: リファレンス
+
+:link: [Angular 日本語ドキュメンテーション](https://angular.jp/)  
+:link: [Angular CLI](https://cli.angular.io/)  
+:link: [NgRx - @ngrx/store](https://ngrx.io/guide/store)  
+:link: [Protractor](https://protractor.angular.io/)  
